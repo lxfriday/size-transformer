@@ -5,7 +5,7 @@
  * @author lxfriday
  */
 module.exports = function(bResult) {
-  if (typeof bResult === 'number') {
+  if (typeof bResult === 'number' && bResult >= 0) {
     if (bResult >= 1024) {
       // kb
       const kbResult = bResult / 1024;
@@ -28,6 +28,6 @@ module.exports = function(bResult) {
     }
     return `${bResult.toFixed(2)} B`;
   } else {
-    throw new Error(`the param must be a number!`);
+    throw new Error(`参数必须为数字且不为负值!`);
   }
 };
