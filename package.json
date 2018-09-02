@@ -1,0 +1,9 @@
+{
+  "name": "size-transformer",
+  "version": "1.0.0",
+  "description": "size transformer,from B to TB",
+  "main": "index.js",
+  "repository": "https://github.com/lxfriday/size-transformer",
+  "author": "lxfriday",
+  "license": "MIT"
+}
