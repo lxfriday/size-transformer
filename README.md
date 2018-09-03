@@ -2,6 +2,14 @@
 
 文件大小单位转换
 
+## install
+
+```bash
+npm i @lxfriday/size-transformer
+// or
+yarn add @lxfriday/size-transformer
+```
+
 ## 参数
 
 - `size` {number} 要转换的文件大小 
