@@ -17,7 +17,7 @@ yarn add @lxfriday/size-transformer
 ## 用法
 
 ```js
-const transformer = require('size-transformer');
+const transformer = require('@lxfriday/size-transformer');
 console.log(transformer(1024 * 1024 * 1024 * 1024)); // 1.00 TB
 console.log(transformer(1024)); // 1.00 KB
 ```
