@@ -6,7 +6,7 @@
 
 ```bash
 npm i @lxfriday/size-transformer
-// or
+# or
 yarn add @lxfriday/size-transformer
 ```
 
