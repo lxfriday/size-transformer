@@ -1,6 +1,6 @@
 {
   "name": "@lxfriday/size-transformer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "size transformer,from B to TB",
   "main": "index.js",
   "repository": "https://github.com/lxfriday/size-transformer",
